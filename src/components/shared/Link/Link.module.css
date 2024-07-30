@@ -1,0 +1,7 @@
+.Link{
+    text-decoration: none;
+}
+
+.Link:active{
+    color:hsl(0,0%,80%)
+}

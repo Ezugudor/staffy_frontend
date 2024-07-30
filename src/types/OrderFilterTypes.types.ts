@@ -1,0 +1,5 @@
+export enum OrderFilterTypes {
+  CUSTOMER_NAME = "CUSTOMER_NAME",
+  ATTRIBUTED_STAFF = "ATTRIBUTED_STAFF",
+  DATE = "DATE",
+}

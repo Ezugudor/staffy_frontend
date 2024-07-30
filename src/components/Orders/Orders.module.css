@@ -1,0 +1,5 @@
+@value primary, pageBGColor  from "/src/app/theme.module.css";
+.main {
+  min-height: 100vh;
+  background: pageBGColor;
+}

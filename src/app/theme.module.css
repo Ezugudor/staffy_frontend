@@ -1,0 +1,33 @@
+@value primaryHue: 230;
+@value primarySaturate: 92;
+@value primaryLight: 10;
+
+@value prizeBgColor: hsl(42.93 100% 75.88%);
+/* @value prizeBgColor: #fff; */
+@value thickYellow: hsl(36 100% 52%);
+/* @value primary: hsl(262.62 75.31% 15.88%); */
+
+/* @value primary: primaryHue; */
+@value primary: hsl(primaryHue primarySaturate% primaryLight%);
+
+@value primary2: hsl(primaryHue primarySaturate% calc(primaryLight% + 6%));
+@value primaryBlend: hsl(primaryHue primarySaturate% calc(primaryLight% + 3%));
+@value primaryIntColor: hsl(primaryHue primarySaturate% calc(primaryLight% + 60%));
+
+@value primaryTick: hsl(202 90% 12.39%);
+
+@value primaryBorder: hsl(primaryHue primarySaturate% calc(primaryLight% + 10%));
+@value GrayBorder: #ddd;
+@value GrayBorderLight: #eee;
+@value pageBGColor: #eee;
+@value ForegroundColor: #fff;
+@value SystemRed: #f00;
+@value Success: rgb(23 163 68);
+
+/* @value primaryBorder: hsl( calc(primaryHue - 100) , primarySaturate%, calc(primaryLight + 50)'%'); */
+/* @value primary: hsl(224.65 81.13% 10.39%); */
+
+@value mainLight: hsl(0 0% 100%);
+@value mainGray: hsl(0 0% 50%);
+@value lightGray: hsl(0 0% 70%);
+@value mainBlack: hsl(0 0% 0%);

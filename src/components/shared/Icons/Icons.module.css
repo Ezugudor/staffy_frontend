@@ -1,0 +1,8 @@
+@value mainGray,mainBlack,lightGray from "/src/app/theme.module.css";
+
+.Wrapper {
+  color: lightGray;
+}
+.Wrapper:active {
+  color: mainBlack;
+}

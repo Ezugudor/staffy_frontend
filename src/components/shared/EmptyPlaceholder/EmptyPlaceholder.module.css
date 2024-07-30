@@ -1,0 +1,20 @@
+.EmptyPlaceholderWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+   
+}
+.EPHIconWrapper{
+    margin-bottom: 10px;
+}
+.EPHTitle{
+    font-size:2vw;
+    margin-bottom: 1vw;
+    color: #aaa;
+}
+.EPHDesc{
+    font-size:1.5vw;
+    color: #999;
+   
+}

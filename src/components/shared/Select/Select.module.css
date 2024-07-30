@@ -1,0 +1,16 @@
+@value primary, mainLight,GrayBorder, prizeBgColor,GrayBorderLight, mainGray, mainBlack, primaryTick,primaryBlend ,primaryBorder  from "/src/app/theme.module.css";
+
+.Select {
+  background-color: inherit;
+  border: 1px solid GrayBorder;
+  border-radius: 30px;
+  padding: 2px 10px;
+  color: mainBlack;
+  min-width: 12vw;
+  font-size: 1.2rem;
+  height: 1.5rem;
+  font-size: 14px;
+  font-weight: bold;
+
+  /* border: 1px solid prizeBgColor; */
+}
